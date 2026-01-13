@@ -1,0 +1,17 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore local environment / credentials
+/config/db.php
+.env
+
+# Ignore temporary PHPStorm / VSCode files
+*.idea/
+.vscode/
+
+# Ignore MySQL dump files if large or sensitive
+/sql/*.sql
