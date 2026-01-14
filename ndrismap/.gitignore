@@ -1,0 +1,82 @@
+# NDRIS-Nepal .gitignore
+
+# Sensitive configuration files
+php/db.php.local
+config.local.php
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Database backups (keep schema.sql)
+*.sql.backup
+*.sql.old
+backup/
+
+# Uploaded files (if file upload feature is added)
+uploads/
+files/
+
+# Environment-specific
+.env
+.env.local
+
+# Node modules (if frontend build tools are added later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled/minified assets (if build process is added)
+dist/
+build/
+*.min.js
+*.min.css
+
+# PHPStorm project files
+.idea/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Cache
+cache/
+*.cache
+
+# Session files
+sessions/
+tmp/
+
+# PHP specific
+vendor/
+composer.lock
+composer.phar

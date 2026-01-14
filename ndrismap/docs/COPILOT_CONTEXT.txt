@@ -1,0 +1,52 @@
+You are assisting in building a civic-tech web application called NDRIS-Nepal
+(National Disaster, Responsibility & Impact System).
+
+PROJECT PURPOSE:
+This system integrates:
+- Disaster memory records
+- Citizen grievance submissions
+- Policy impact tracking
+- Urban Neglect Index computation
+- Interactive SVG-based Nepal map visualization
+
+TECH STACK (DO NOT DEVIATE):
+- Frontend: HTML5, CSS3, JavaScript only
+- Backend: Procedural PHP 8
+- Database: MySQL / MariaDB using MySQLi
+- Map: SVG + JavaScript (based on INTmap project)
+
+STRICT RULES:
+- NO frameworks (no Laravel, React, Vue, etc.)
+- Use MySQLi prepared statements for ALL database queries
+- Validate and sanitize all user inputs
+- Modular PHP files (one responsibility per file)
+- Comment all major logic blocks clearly
+- Avoid political or opinionated language in UI and comments
+
+DATABASE:
+Follow exactly the schema defined in /docs/DATABASE_SCHEMA.md.
+Do not invent new tables or fields without justification.
+
+FILE STRUCTURE:
+Follow the project structure defined in /docs/FILE_STRUCTURE.md.
+
+CODING STYLE:
+- Procedural PHP only
+- Clear variable names
+- No magic numbers (use comments if needed)
+- Security-aware but not over-engineered
+
+OUTPUT EXPECTATION:
+When generating code:
+- Generate complete, working files (not fragments)
+- Match the project architecture
+- Ensure code can run on XAMPP (Apache + PHP + MySQL)
+- Keep output readable and minimal
+
+ETHICAL CONSTRAINT:
+This project is neutral, data-driven, and non-political.
+All indices are heuristic and explanatory, not judgmental.
+
+GOAL:
+Help build a clean, functional, and academically defensible CRUD-based web system
+that demonstrates full-stack PHP development with interactive data visualization.

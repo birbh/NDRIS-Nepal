@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" id="nepal-map">
+  <!-- Nepal Map with Major Districts -->
+  <!-- Simplified SVG representation of Nepal districts -->
+  <!-- Each path element represents a district -->
+  
+  <!-- Province 1 Districts -->
+  <path id="Morang" class="district" d="M 650 200 L 700 200 L 700 250 L 650 250 Z" 
+        data-district="Morang" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Sunsari" class="district" d="M 600 200 L 650 200 L 650 250 L 600 250 Z" 
+        data-district="Sunsari" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Bagmati Province Districts -->
+  <path id="Kathmandu" class="district" d="M 400 280 L 450 280 L 450 330 L 400 330 Z" 
+        data-district="Kathmandu" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Lalitpur" class="district" d="M 400 330 L 450 330 L 450 360 L 400 360 Z" 
+        data-district="Lalitpur" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Bhaktapur" class="district" d="M 450 280 L 490 280 L 490 320 L 450 320 Z" 
+        data-district="Bhaktapur" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Dhading" class="district" d="M 350 250 L 400 250 L 400 300 L 350 300 Z" 
+        data-district="Dhading" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Chitwan" class="district" d="M 350 350 L 420 350 L 420 400 L 350 400 Z" 
+        data-district="Chitwan" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Gandaki Province Districts -->
+  <path id="Gorkha" class="district" d="M 320 220 L 370 220 L 370 270 L 320 270 Z" 
+        data-district="Gorkha" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Kaski" class="district" d="M 270 270 L 330 270 L 330 320 L 270 320 Z" 
+        data-district="Kaski" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Lumbini Province Districts -->
+  <path id="Rupandehi" class="district" d="M 220 350 L 280 350 L 280 400 L 220 400 Z" 
+        data-district="Rupandehi" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Banke" class="district" d="M 180 300 L 240 300 L 240 350 L 180 350 Z" 
+        data-district="Banke" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <path id="Dang" class="district" d="M 240 300 L 300 300 L 300 350 L 240 350 Z" 
+        data-district="Dang" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Karnali Province Districts -->
+  <path id="Jajarkot" class="district" d="M 200 200 L 260 200 L 260 250 L 200 250 Z" 
+        data-district="Jajarkot" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Sudurpashchim Province Districts -->
+  <path id="Kailali" class="district" d="M 100 300 L 160 300 L 160 360 L 100 360 Z" 
+        data-district="Kailali" stroke="#333" stroke-width="1" fill="#e0e0e0"/>
+  
+  <!-- Additional district (simplified, as Pokhara is part of Kaski) -->
+  <!-- Pokhara reference for user convenience -->
+  <circle id="Pokhara" cx="300" cy="295" r="5" 
+          data-district="Kaski" stroke="#666" stroke-width="1" fill="#ff9800" opacity="0.8"/>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(20, 450)">
+    <text x="0" y="0" font-size="14" font-weight="bold">Neglect Index:</text>
+    <rect x="0" y="10" width="30" height="20" fill="#4CAF50" stroke="#333"/>
+    <text x="35" y="25" font-size="12">Low (0-5)</text>
+    
+    <rect x="0" y="35" width="30" height="20" fill="#FFC107" stroke="#333"/>
+    <text x="35" y="50" font-size="12">Medium (5-10)</text>
+    
+    <rect x="0" y="60" width="30" height="20" fill="#F44336" stroke="#333"/>
+    <text x="35" y="75" font-size="12">High (10+)</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+    NDRIS-Nepal Interactive Map
+  </text>
+  <text x="400" y="55" text-anchor="middle" font-size="14" fill="#666">
+    Click on a district to view details
+  </text>
+</svg>
