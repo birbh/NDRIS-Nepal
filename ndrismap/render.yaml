@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ndris-nepal
+    env: php
+    buildCommand: "echo 'No build needed'"
+    startCommand: "php -S 0.0.0.0:$PORT -t public"
+    envVars:
+      - key: DB_HOST
+        value: localhost
+      - key: DB_USER
+        value: root
+      - key: DB_NAME
+        value: ndris_nepal

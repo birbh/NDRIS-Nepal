@@ -1,0 +1,15 @@
+{
+  "name": "ndris-nepal/civic-platform",
+  "description": "National Disaster, Responsibility & Impact System for Nepal",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-mysqli": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NDRIS Nepal Team"
+    }
+  ]
+}

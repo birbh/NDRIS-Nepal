@@ -4,6 +4,12 @@
 php/db.php.local
 config.local.php
 
+# Replit specific (keep .replit and replit.nix - they're needed for deployment)
+.replit.lock
+.config/
+.cache/
+.upm/
+
 # Editor files
 .vscode/
 .idea/

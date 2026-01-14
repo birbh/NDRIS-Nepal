@@ -28,13 +28,29 @@ NDRIS-Nepal is an educational civic technology prototype built with:
 
 ## 🚀 Quick Start
 
-See **[SETUP.md](SETUP.md)** for detailed installation instructions.
+See **[SETUP.md](SETUP.md)** for detailed local installation.
 
-### Quick Install (XAMPP)
+### Quick Install (XAMPP - Local)
 1. Import `sql/schema.sql` into phpMyAdmin
 2. Copy `ndrismap/` to `htdocs/`
 3. Access: `http://localhost/ndrismap/public/index.php`
 4. Admin login: `admin` / `admin123`
+
+### 🚀 Deploy Live (Auto-updates from GitHub)
+**Recommended**: Use **[Replit](https://replit.com)** for instant deployment
+
+```bash
+# 1. Push to GitHub
+cd ../deployment
+./deploy.sh
+
+# 2. Import from GitHub on Replit
+# 3. Your app is live! ✅
+```
+
+📖 **Full deployment guide**: [../deployment/DEPLOYMENT.md](../deployment/DEPLOYMENT.md) | ⚡ [Quick start](../deployment/QUICKSTART.md)
+
+**Supports auto-deployment on**: Replit • Railway • Render • Heroku
 
 ## 📁 Project Structure
 

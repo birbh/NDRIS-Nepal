@@ -5,13 +5,16 @@
  * 
  * Provides secure MySQLi connection for all database operations
  * Uses procedural PHP with error handling
+ * 
+ * Supports environment variables for cloud deployment
  */
 
 // Database configuration constants
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'ndris_nepal');
+// Use environment variables if available (for cloud deployment), fallback to local defaults
+define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+define('DB_USER', getenv('DB_USER') ?: 'root');
+define('DB_PASS', getenv('DB_PASS') ?: '');
+define('DB_NAME', getenv('DB_NAME') ?: 'ndris_nepal');
 
 /**
  * Establish database connection
